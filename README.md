@@ -62,4 +62,13 @@ To run this project locally:
 
 ---
 
+## Creating a 3D Model
+
+1. Install [`npm install -g gltf-pipeline`](https://www.npmjs.com/package/gltf-pipeline)
+2. Then convert the `.gltf` to a `.glb`, using this command `gltf-pipeline -i model.gltf -o model.glb`
+3. Then create a JSX Component from the `.glb` file you just converted using this command [`npx gltfjsx <file>.glb`](https://github.com/pmndrs/gltfjsx)
+4. Copy the `.jsx` file and the `.glb` to the component folder in your react app
+
+---
+
 Thank you for visiting my portfolio! 😊

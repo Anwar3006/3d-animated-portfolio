@@ -284,9 +284,9 @@ const Hero = () => {
             </div>
 
             <img
-              src="/hero.png"
+              src="/myhero.png"
               alt="myself"
-              className="w-auto max-w-full max-h-[50%] object-contain lg:max-h-screen"
+              className="w-auto md:w-[100%] xl:w-[50%] max-w-full max-h-[100%] object-contain lg:max-h-screen"
             />
           </div>
         </div>

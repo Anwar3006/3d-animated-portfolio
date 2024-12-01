@@ -10,7 +10,7 @@ const App = () => {
         <Hero />
       </section>
 
-      <section className="h-screen max-h-screen bg-amber-400 snap-center">
+      <section className="h-screen max-h-screen snap-center">
         <Services />
       </section>
 
