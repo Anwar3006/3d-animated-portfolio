@@ -1,5 +1,4 @@
 import { motion } from "motion/react";
-import "./hero.css";
 import Speech from "./Speech";
 import { Canvas } from "@react-three/fiber";
 import Bg3DShape from "./Bg3DShape";

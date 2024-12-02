@@ -21,10 +21,12 @@ const Counter = ({ from, to, text }) => {
 
   return (
     <div className="flex flex-col items-start md:gap-2" ref={containerRef}>
-      <h1 className="md:text-3xl lg:text-4xl text-[#dd4c62] font-extrabold">
+      <h1 className="text-3xl md:text-3xl lg:text-4xl text-[#dd4c62] font-extrabold">
         {count}+
       </h1>
-      <p className="md:text-[10px] lg:text-base text-neutral-400">{text}</p>
+      <p className="md:text-[10px] lg:text-base text-neutral-300 md:text-neutral-400">
+        {text}
+      </p>
     </div>
   );
 };

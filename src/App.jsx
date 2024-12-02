@@ -14,12 +14,12 @@ const App = () => {
         <Services />
       </section>
 
+      {/* <section className="h-screen max-h-screen snap-center"> */}
+      <Projects />
+      {/* </section> */}
+
       <section className="h-screen max-h-screen bg-red-400 snap-center">
         <Contact />
-      </section>
-
-      <section className="h-screen max-h-screen bg-pink-400 snap-center">
-        <Projects />
       </section>
     </div>
   );

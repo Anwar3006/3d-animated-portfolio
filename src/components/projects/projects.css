@@ -1,2 +1,15 @@
-.projects {
+#listItem:nth-child(1) {
+  background: linear-gradient(to right, #12071f, #4a0896);
+}
+#listItem:nth-child(2) {
+  background: linear-gradient(to right, #4a0896, #5f0767);
+}
+#listItem:nth-child(3) {
+  background: linear-gradient(to right, #5f0767, #9f0a72);
+}
+#listItem:nth-child(4) {
+  background: linear-gradient(to right, #9f0a72, #410517);
+}
+#listItem:nth-child(5) {
+  background: linear-gradient(to right, #410517, #12071f);
 }

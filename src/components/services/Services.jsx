@@ -4,7 +4,7 @@ import LaptopModelContainer from "./LaptopModel/LaptopModelContainer";
 import PlaystationModelContainer from "./PlayStationModel/PlaystationModelContainer";
 import SculptureModelContainer from "./Sculpture/SculptureModelContainer";
 import ServiceCard from "./ServiceCard";
-import "./services.css";
+
 import { useRef, useState } from "react";
 
 const services = [
@@ -63,11 +63,14 @@ const Services = () => {
   const [currentServiceId, setCurrentServiceId] = useState(1);
 
   const containerRef = useRef();
-  const isInView = useInView(containerRef, { margin: "-300px" });
+  const isMobile = window.innerWidth < 768; // Accommodating for mobile screens
+  const isInView = useInView(containerRef, {
+    margin: isMobile ? "-100px" : "-300px",
+  });
   return (
     <div className="h-[100%] overflow-hidden flex relative" ref={containerRef}>
       {/* Left Side */}
-      <div className="relative w-full z-20 flex flex-col items-center justify-center md:z-0 md:w-1/2 md:flex md:flex-col md:justify-center md:items-start">
+      <div className="relative top-0 left-0 w-full z-20 flex flex-col items-center justify-center md:z-0 md:w-1/2 md:flex md:flex-col md:justify-center md:items-start">
         <motion.h1
           variants={textVariants}
           animate={isInView ? "animate" : "initial"}
@@ -95,7 +98,11 @@ const Services = () => {
         </motion.div>
 
         {/* Counter */}
-        <div className="w-2/3 flex items-center justify-between space-x-3">
+        <div
+          className={`${
+            isMobile ? "w-full" : "w-2/3"
+          } flex items-center justify-between space-x-3`}
+        >
           <Counter from={0} to={30} text="Projects Completed" />
           <Counter from={0} to={15} text="Satisfied Clients" />
         </div>
