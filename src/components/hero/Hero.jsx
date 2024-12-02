@@ -143,14 +143,14 @@ const Hero = () => {
           >
             <path
               d="M5 9C5 5.13401 8.13401 2 12 2C15.866 2 19 5.13401 19 9V15C19 18.866 15.866 22 12 22C8.13401 22 5 18.866 5 15V9Z"
-              stroke="white"
+              stroke="#fd0a54"
               strokeWidth="1"
             />
             <motion.path
               animate={{ y: [0, 5, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
               d="M12 5V8"
-              stroke="white"
+              stroke="#fd0a54"
               strokeWidth="1"
               strokeLinecap="round"
             />
@@ -199,9 +199,9 @@ const Hero = () => {
           className="hidden md:flex md:flex-col gap-0.5 lg:gap-2 items-end md:items-center justify-center md:mr-2 lg:mr-10"
           animate={{ opacity: [0, 1], transition: { duration: 2, delay: 1 } }}
         >
-          <div className="w-12 h-12 md:w-auto md:h-16 lg:w-24 lg:h-24 rounded-lg object-cover bg-white flex items-center justify-center">
+          <div className="w-12 h-12 md:w-16 md:h-16 lg:w-24 lg:h-24 rounded-lg object-cover bg-white flex items-center justify-center">
             <img
-              src="/java-certified.png"
+              src="/certification.png"
               alt="java"
               className="h-12 md:h-16 lg:h-24 w-fit"
             />

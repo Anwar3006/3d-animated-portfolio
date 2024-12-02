@@ -100,7 +100,7 @@ const Services = () => {
         {/* Counter */}
         <div
           className={`${
-            isMobile ? "w-full" : "w-2/3"
+            isMobile ? "w-full px-10" : "w-2/3"
           } flex items-center justify-between space-x-3`}
         >
           <Counter from={0} to={30} text="Projects Completed" />

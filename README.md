@@ -23,6 +23,11 @@ Welcome to my portfolio website! 🚀 This site showcases my skills, projects, a
 - **Motion**: A library for declarative animations and gestures in React.  
   [Framer Motion Documentation](https://www.framer.com/motion/)
 
+### **Email Service**
+
+- **EmailJS**: EmailJS helps to send emails using client-side technologies only. No server is required – just connect EmailJS to one of the supported email services, create an email template, and use one of our SDK libraries to trigger an email.
+  [EmailJS Documentation](https://www.emailjs.com/docs/)
+
 ---
 
 ## 📦 Noteworthy Dependencies
