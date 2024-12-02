@@ -18,7 +18,7 @@ const App = () => {
       <Projects />
       {/* </section> */}
 
-      <section className="h-screen max-h-screen bg-red-400 snap-center">
+      <section className="h-screen max-h-screen snap-center">
         <Contact />
       </section>
     </div>

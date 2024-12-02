@@ -127,7 +127,7 @@ const Projects = () => {
       <section className="h-screen max-h-screen snap-center" />
       <section className="h-screen max-h-screen snap-center" />
 
-      <div className="sticky w-[50px] h-[50px] md:w-[65px] md:h-[65px] lg:w-[80px] lg:h-[80px]  left-[100%] bottom-[3%] lg:left-0 lg:bottom-[80%]">
+      <div className="sticky w-[50px] h-[50px] md:w-[65px] md:h-[65px] lg:w-[80px] lg:h-[80px] left-[100%] bottom-[3%] lg:left-0 lg:bottom-[80%]">
         <svg height="100%" width="100%" viewBox="0 0 160 160">
           <circle
             cx="80"

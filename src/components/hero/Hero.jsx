@@ -252,11 +252,11 @@ const Hero = () => {
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
                 fill="#000000"
                 className="h-[20px] w-[20px] md:h-[40px] md:w-[40px]"
                 viewBox="0 0 330 330"
-                xml:space="preserve"
+                xmlSpace="preserve"
               >
                 <path
                   id="XMLID_27_"
